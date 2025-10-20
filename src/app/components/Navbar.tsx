@@ -34,13 +34,13 @@ export default function Navbar() {
     }
 
     return (
-        <header className="sticky top-0 z-50 bg-white shadow-md">
+        <header className="bg-white shadow-md">
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
                 <Link href="/" className="flex items-center space-x-2 text-gray-900 hover:text-indigo-600 transition duration-300">
                     <Image src="/logo.svg" alt="Site logo" width={40} height={40} />
-                    <span className="text-xl sm:text-2xl font-serif font-bold tracking-wide">
+                    <h1 className="text-xl sm:text-2xl font-serif font-bold tracking-wide uppercase">
                         Turner & Tonic
-                    </span>
+                    </h1>
                 </Link>
 
                 <div className="hidden md:block">
